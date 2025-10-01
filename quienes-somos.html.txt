@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiénes Somos - Mi Tienda</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="carrito.html">Carrito</a></li>
+            <li><a href="busqueda.html">Búsqueda</a></li>
+        </ul>
+    </nav>
+
+    <h2>Quiénes Somos</h2>
+    <p>Mi Tienda es una empresa dedicada a ofrecer productos de calidad...</p>
+
+    <h3>Equipo</h3>
+    <table>
+        <tr>
+            <td>Juan Pérez</td>
+            <td>CEO</td>
+            <td>juan@mitienda.com</td>
+        </tr>
+        <tr>
+            <td>Ana Gómez</td>
+            <td>Marketing</td>
+            <td>ana@mitienda.com</td>
+        </tr>
+    </table>
+
+    <h3>Misión, Visión y Valores</h3>
+    <ul>
+        <li>Misión: Ofrecer productos de calidad...</li>
+        <li>Visión: Ser la tienda líder...</li>
+        <li>Valores: Honestidad, compromiso...</li>
+    </ul>
+
+    <button id="verMas">Ver más</button>
+</body>
+</html>
