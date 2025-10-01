@@ -1,0 +1,24 @@
+/* Ejemplo básico de estilo para el sitio */
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header img {
+    width: 100%;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Estilos adicionales según sea necesario */
