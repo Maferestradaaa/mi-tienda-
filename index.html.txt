@@ -1,0 +1,33 @@
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="carrito.html">Carrito</a></li>
+            <li><a href="busqueda.html">Búsqueda</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Bienvenidos a Mi Tienda</h1>
+        <img src="banner.jpg" alt="Banner destacado">
+    </header>
+
+    <section>
+        <h2>Productos Destacados</h2>
+        <ul>
+            <li>Producto 1</li>
+            <li>Producto 2</li>
+            <li>Producto 3</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p id="mensaje">Cargando...</p>
+    </footer>
+</body>
+</html>
+
