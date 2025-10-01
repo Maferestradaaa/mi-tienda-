@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito - Mi Tienda</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="carrito.html">Carrito</a></li>
+            <li><a href="busqueda.html">Búsqueda</a></li>
+        </ul>
+    </nav>
+
+    <h2>Carrito de Compras</h2>
+    <table>
+        <tr>
+            <td><img src="producto1.jpg" alt="Producto 1"></td>
+            <td>Producto 1</td>
+            <td><input type="number" value="1" min="1"></td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td><img src="producto2.jpg" alt="Producto 2"></td>
+            <td>Producto 2</td>
+            <td><input type="number" value="1" min="1"></td>
+            <td>$200</td>
+        </tr>
+    </table>
+    <p>Total: $300</p>
+</body>
+</html>
