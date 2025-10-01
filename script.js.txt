@@ -1,0 +1,21 @@
+// Mensaje dinámico en el inicio
+document.addEventListener('DOMContentLoaded', function () {
+    let mensaje = document.getElementById('mensaje');
+    mensaje.textContent = "¡Bienvenido a nuestra tienda! Hoy es " + new Date().toLocaleDateString();
+});
+
+// Habilitar/deshabilitar el botón de registro
+document.getElementById('terminos').addEventListener('change', function() {
+    document.getElementById('submit').disabled = !this.checked;
+});
+
+// Función de "Ver más"
+document.getElementById('verMas').addEventListener('click', function() {
+    alert('Aquí va más información');
+});
+
+// Función de búsqueda
+function buscarProducto() {
+    let busqueda = document.getElementById('busqueda').value;
+    document.getElementById('resultado').textContent = `Resultados para la búsqueda de ${busqueda}`;
+}
